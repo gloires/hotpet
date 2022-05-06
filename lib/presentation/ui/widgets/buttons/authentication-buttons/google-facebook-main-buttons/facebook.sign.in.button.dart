@@ -1,34 +1,38 @@
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 import 'package:hotpet/config/theme.dart' as style;
 import 'package:hotpet/presentation/ui/widgets/icons/auth_icons.dart';
 
-class GoogleButton extends StatelessWidget {
+class FacebookButton extends StatelessWidget {
   final IconData? trailing;
   final String title;
   final TextAlign? textAlign;
   final void Function()? onClick;
 
-  const GoogleButton(
+  const FacebookButton(
       {Key? key,
-        required this.title,
-        this.trailing,
-        this.textAlign,
-        this.onClick})
+      required this.title,
+      this.trailing,
+      this.textAlign,
+      this.onClick})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return  ListTile(
+    return ListTile(
       leading: Container(
-          height: 35,
-          width: 35,
+          height: 4.5.h,
+          width: 9.w,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
-              color: style.Colors.google
-          ),
-          child: const Icon(Auth.google, color: Colors.white, size: 33,)),
+              color: style.Colors.facebook),
+          child: Icon(Auth.facebook, color: Colors.white, size: 4.5.h)),
       title: Text(title,
-          style: const TextStyle(fontFamily: 'e-Ukraine', fontSize: 15),
+          style: TextStyle(
+            fontFamily: 'e-Ukraine',
+            fontSize: 11.2.sp,
+            color: style.Colors.darkViolet,
+          ),
           textAlign: textAlign),
       trailing: Icon(trailing),
       onTap: onClick,

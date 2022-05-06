@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 class EntranceButton extends StatelessWidget {
   final IconData? trailing;
@@ -19,7 +20,7 @@ class EntranceButton extends StatelessWidget {
     return  SingleChildScrollView(
       child: ListTile(
         title: Text(title,
-            style: const TextStyle(fontFamily: 'e-Ukraine', fontSize: 15, color: Colors.white),
+            style: TextStyle(fontFamily: 'e-Ukraine', fontSize: 11.2.sp, color: Colors.white),
             textAlign: textAlign),
         onTap: onClick,
       ),

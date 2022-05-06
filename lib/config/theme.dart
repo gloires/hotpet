@@ -9,6 +9,6 @@ class Colors {
   static const Color lightGrey = Color.fromRGBO(247, 247, 247, 1);
   static const Color facebook = Color.fromRGBO(60, 87, 158, 1);
   static const Color google = Color.fromRGBO(217, 80, 50, 1);
-  static const Color button = Color.fromRGBO(23, 18, 50, 1);
+  static const Color darkViolet = Color.fromRGBO(23, 18, 50, 1);
   static const Color textGrey = Color.fromRGBO(196, 196, 196, 1);
 }
