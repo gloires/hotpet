@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682877686767",
+    "project_id": "hotpet-v1",
+    "storage_bucket": "hotpet-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682877686767:android:136b49ad4f258209f1dc1a",
+        "android_client_info": {
+          "package_name": "com.example.hotpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682877686767-960dvt760c15q85hh6qop9bfbqvfoduu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDegnaeXGwSi7Wb-FvpYupLQ--N3dlQBdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682877686767-960dvt760c15q85hh6qop9bfbqvfoduu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
